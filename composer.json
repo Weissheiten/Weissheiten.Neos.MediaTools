@@ -1,0 +1,18 @@
+{
+    "description": "Tools for checking the integrity of media assets",
+    "type": "neos-package",
+    "name": "weissheiten/neos-mediatools",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Weissheiten\\Neos\\MediaTools\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Weissheiten.Neos.MediaTools"
+        }
+    }
+}
