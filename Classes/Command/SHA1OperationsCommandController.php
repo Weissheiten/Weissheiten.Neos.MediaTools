@@ -59,6 +59,7 @@ class SHA1OperationsCommandController extends CommandController
 %s files with matching SHA1".
 OUT;
 
+        $this->outputLine($text_correct, array(count($correct)));
 
         $text_incorrect = <<<OUT
 %s files with non-matching SHA1".
